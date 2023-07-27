@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="./image brisons le silence/favicon.ico"/>
+  <title>Brison le silence</title>
+</head>
+<body>
+  <!--barre de navigation-->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark text-white">
+      <div class="container">
+        <ul class="navbar-brand list-unstyled">
+          <li>
+            <img class="border border-3 border-white img-fluid rounded-circle align-items-center"
+              src="./image brisons le silence/logo en tete brison le silence.png"
+                alt="logo brisons le silence">
+            </li>
+          </ul>
+        <h2 class="underline"><a href="index.html">Brisons le silence</a></h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse justify-content-end align-items-center " id="navbarNav">
+          <ul class="navbar-nav text-white">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Événement</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://discord.com/channels/1117515708763492472/1117515709333897218" target="_blank">
+                <i class="bi bi-discord text-secondary px-2"></i>Unis contre le harcèlement :
+                  notre espace confidentiel pour les enfants victimes.</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<main>
+  <section class="été d-none d-sm-block p-5 vh-100">
+    <div class="container mobile-font">
+      <h1 class="diplay-1 fw-semibold text-white">Passez un été<br>
+        <span class="text-warning">de folie</span> en participant<br> à nos événements !!</h1>
+          <p class="mt-5 text-white w-50">
+            "Préparez-vous à être transformé cet été en rejoignant nos événements contre le
+            harcèlement : des rencontres puissantes, des outils concrets et un soutien inébranlable
+            vous aideront à devenir un acteur du changement."
+          </p>
+        <p class="mt-5"><a class="btn btn-dark btn-lg text-warning" href="#inscription">S'inscrire</a></p>
+    </div>
+  </section>
+
+    <!--section été mobile-->
+    <section class="été d-sm-none py-5 px-3 vh-100">
+      <div class="container">
+        <h1 class="display-5 fw-semibold text-white">Passez un été<br>
+          <span class="text-warning">de folie</span> en participant<br> à nos événements !!</h1>
+        <p class="mt-5 text-white ">
+          "Préparez-vous à être transformé cet été en rejoignant nos événements contre le
+          harcèlement : des rencontres puissantes, des outils concrets et un soutien inébranlable
+          vous aideront à devenir un acteur du changement."
+        </p>
+        <p class="mt-5"><a class="btn btn-dark btn-lg text-warning" href="#">S'inscrire</a></p>
+      </div>
+    </section>
+
+    <!--section activité-->
+    <section class="bg-dark mb-4 py-4">
+      <div class="container grid-mobile">
+      <h2 class="fs-1 fw-semibold text-center text-white py-2">
+        Choisissez l'événement qui vous convient le mieux !</h2>
+        <p class="text-center text-white">
+          Choissisez votre régions:
+        </p>
+        <ul class="list-group list-group-horizontal-sm justify-content-center gap-1 ">
+          <li class="list-group-item bg-warning text-dark">
+            <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="firstRadio" checked>
+            <label class="form-check-label" for="firstRadio">île-de-France</label>
+          </li>
+          <li class="list-group-item bg-warning text-dark">
+            <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="secondRadio">
+            <label class="form-check-label" for="secondRadio">Pays de la loire</label>
+          </li>
+          <li class="list-group-item bg-warning text-dark">
+            <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="thirdRadio">
+            <label class="form-check-label" for="thirdRadio">Hauts-de-France</label>
+          </li>
+          <li class="list-group-item bg-warning text-dark">
+            <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="fourdRadio">
+            <label class="form-check-label" for="fourRadio">Aquitaine</label>
+          </li>
+          <li class="list-group-item bg-warning text-dark">
+            <input class="form-check-input me-1" type="radio" name="listGroupRadio" value="" id="fivedRadio">
+            <label class="form-check-label" for="fiveRadio">Languedoc-roussillon</label>
+          </li>
+        </ul>
+        <div class="card-group my-2 py-2">
+          <div id="inscription"></div>
+          <div class="card">
+            <img src="https://exploreparis.com/5776/croisiere-sur-l-ourcq-avant-le-cinema-en-plein-air.jpg"
+              class="card-img-top" alt="image cinema en pleine air">
+            <div class="card-body">
+              <h5 class="card-title">Cinema en pleine air</h5>
+              <p class="card-text"> Des projections de films en plein air dans un parc ou
+                un espace public. Choisissez des films inspirants qui abordent des thèmes liés à
+                l'acceptation, la diversité, et l'importance de mettre fin au harcèlement.</p>
+                <button type="button" class="btn btn-dark text-warning">S'inscrire</button>
+                <p class="py-2 text-center">
+                  Tous les mercredis et samedi soir<br> à partir de 19h45<br>
+                  <span class="text-warning bg-dark">du 08/07/2023 au 29/08/2023.</span>
+                </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">73/100 participants</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://ds.static.rtbf.be/article/image/770x770/8/0/1/1d7c2aae840867027b7edd17b6aaa0e9-1630774247.jpg" 
+            class="card-img-top" alt="auto-défense">
+            <div class="card-body">
+              <h5 class="card-title">Ateliers d'autodéfense et de confiance en soi </h5>
+              <p class="card-text">  Des sessions interactives d'autodéfense pour les
+                jeunes, en leur enseignant des techniques de base pour se protéger et renforcer
+                leur confiance en eux.</p>
+                <button type="button" class="btn btn-dark text-warning">S'inscrire</button>
+                <p class="py-2 text-center">
+                  Cours le<br> lundi | Mercredi | Vendredi<br> de 14h-16h et de 16h-18h<br>
+                  <span class="text-warning bg-dark">du 08/07/2023 au 29/08/2023.</span>
+                </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">30/100 participants</small>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://www.bibamagazine.fr/wp-content/uploads/biba/2020/11/macrame-kit-freedom-ice-mix-2.jpg"
+              class="card-img-top" alt="image atelier d'art">
+            <div class="card-body">
+              <h5 class="card-title">Activités artistiques et créatives:</h5>
+              <p class="card-text"> Ateliers d'art, de peinture, de dessin, de théâtre ou
+                d'écriture pour encourager l'expression artistique des jeunes et leur donner un
+                moyen de partager leurs émotions et leurs expériences.</p>
+              <button type="button" class="btn btn-dark text-warning">S'inscrire</button>
+              <p class="py-2 text-center">
+                Cours les<br> Mardi et Jeudi de<br> 10h-12h ou de 14h-16h<br>
+                <span class="text-warning bg-dark">du 08/07/2023 au 29/08/2023.</span>
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">79/100participants</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container py-2 my-2">
+        <div class="card-group">
+        <div class="card">
+          <img src="https://res.cloudinary.com/prochaine-escale/image/upload/t_travel_objective_events_carousel/O2_2.jpg"
+            class="card-img-top" alt="image plage activité">
+          <div class="card-body">
+            <h5 class="card-title">week-end d'activité à la plage:</h5>
+            <p class="card-text"> Des stands d'information, des jeux interactifs et des
+              activités pour sensibiliser les jeunes et leurs familles au harcèlement.</p>
+            <button type="button" class="btn btn-dark text-warning">S'inscrire</button>
+            <p class="py-2 text-center">
+              Rendez vous tous les week-end<br> de samedi matin 9h00<br> à dimanche soir 18h00<br>
+              <span class="text-warning bg-dark">du 08/07/2023 au 29/08/2023.</span>
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">27/100participants</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/25/ac/2e/di-spalle.jpg?w=1200&h=-1&s=1"
+            class="card-img-top" alt="image d'excursion">
+          <div class="card-body">
+            <h5 class="card-title">Sorties et excursions :</h5>
+            <p class="card-text">des sorties et des excursions éducatives pour les jeunes,
+            comme des visites de musées, des randonnées en pleine nature ou des visites guidées 
+            de lieux culturels. Cela leur permettra d'apprendre, de s'évader et de se divertir 
+            en même temps.</p>
+            <button type="button" class="btn btn-dark text-warning">S'inscrire</button>
+            <p class="py-2 text-center">
+              Partez à l'aventure le <br> Mardi | Jeudi | Vendredi <br> de 9h00 à 17h00<br>
+              <span class="text-warning bg-dark">du 08/07/2023 au 29/08/2023.</span>
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">46/100participants</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://www.sports.gouv.fr/sites/default/files/2022-08/flag-img-1358-jpg-944.jpg"
+            class="card-img-top" alt="image activité sportives">
+          <div class="card-body">
+            <h5 class="card-title">Jeux et activités sportives:</h5>
+            <p class="card-text"> Jeux et d'activités sportives pour les jeunes, comprenant des
+              jeux d'équipe, des défis sportifs et des compétitions amicales. Cela favorisera la
+              camaraderie et l'esprit d'équipe.</p>
+            <button type="button" class="btn btn-dark text-warning">S'inscrire</button>
+            <p class="py-2 text-center">
+              Tous les jours sauf<br> week-end de 10h00 à 15h30<br>
+              <span class="text-warning bg-dark">du 08/07/2023 au 29/08/2023.</span>
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-body-secondary">96/100participants</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+    <!--pied de la page-->
+  <footer class="bg-dark pb-2 pt-5">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-4 text-center">
+          <img class="border border-3 border-white rounded-circle img-fluid"
+          src="./image brisons le silence/logo en tete brison le silence.png" alt="logo">
+        </div>
+          <div class="col-md-4 text-center">
+            <h3 class="text-white">Information</h3>
+            <p class="mb-1"><a class="text-decoration-none small text-danger" href="faireundon.html">Faire un Don</a></p>
+            <p class="mb-1"><a class="text-decoration-none small text-danger" href="#">Contact</a></p>
+            <p class="mb-1"><a class="text-decoration-none small text-danger" href="index.html">Retour à l'accueil</a></p>
+          </div>
+        <div class="col-md-4 text-center">
+          <h3 class="text-white">Nous suivre</h3>
+          <p class="fs-1 text-center">
+            <a class="text-secondary" href="#"><i class="bi bi-instagram"></i></a>
+            <a class="text-secondary" href="#"><i class="bi bi-facebook"></i></a>
+            <a class="text-secondary" href="#"><i class="bi bi-twitter"></i></a>
+            <a class="text-secondary" href="#"><i class="bi bi-youtube"></i></a>
+          </p>
+        </div>
+      </div>
+      <hr class="border border-secondary">
+      <p class="text-center small text-secondary">&copy; 2023 - Brisons le silence - 
+      Tous les droits réservés
+      </p>
+    </div>  
+  </footer>
+
+</body>
+</html>

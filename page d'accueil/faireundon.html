@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="./image brisons le silence/favicon.ico"/>
+  <title>Brison le silence</title>
+  <title>Document</title>
+</head>
+<body>
+
+  <!--barre de navigation-->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark text-white">
+      <div class="container-fluid">
+        <ul class="navbar-brand list-unstyled">
+          <li>
+            <img class="border border-3 border-white img-fluid rounded-circle align-items-center"
+              src="./image brisons le silence/logo en tete brison le silence.png"
+                alt="logo brisons le silence">
+            </li>
+          </ul>
+          <h2 class="underline"><a href="index.html">Brisons le silence</a></h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse justify-content-end align-items-center " id="navbarNav">
+          <ul class="navbar-nav text-white">
+            <li class="nav-item">
+              <a class="nav-link" href="./événement.html">Événement</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://discord.com/channels/1117515708763492472/1117515709333897218" target="_blank">
+                <i class="bi bi-discord text-secondary px-2"></i>Unis contre le harcèlement :
+                  notre espace confidentiel pour les enfants victimes.</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="faire-un-don">
+      <div class="container-2">
+        <div class="block block-centered block-last">
+          <div class="block-body">
+            <h2 class="title"><span>Je fais</span> un don</h2>
+              <p>
+                Quand vous faites un don à Brisons le silence, vous donnez les moyens d’agir
+                à des associations et des acteurs de terrain engagés au service de l’intérêt général. 
+            </p>
+            <form action="#" method="get" class="reservation-form">
+              <div class="form-row">
+              <input type="text" name="Nom" placeholder="Saisissez votre nom">
+              <input type="text" name="prénom" placeholder="Saisissez votre prénom">
+              <select name="donation">
+                <option value="1">5€</option>
+                <option value="2">10€</option>
+                <option value="3">15€</option>
+                <option value="4">20€</option>
+              </select> 
+              <input type="email" name="email" id="email" required placeholder="Votre adresse e-mail">
+              </div>
+              <button class="button">Donation</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <!--pied de la page-->
+    <footer class="bg-dark pb-2 pt-5">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-md-4 text-center">
+            <img class="border border-3 border-white rounded-circle img-fluid"
+              src="./image brisons le silence/logo en tete brison le silence.png" alt="logo">
+          </div>
+            <div class="col-md-4 text-center">
+              <h3 class="text-white">Information</h3>
+              <p class="mb-1"><a class="text-decoration-none small text-danger" href="faireundon.html">Faire un Don</a></p>
+              <p class="mb-1"><a class="text-decoration-none small text-danger" href="#">Contact</a></p>
+            </div>
+          <div class="col-md-4 text-center">
+            <h3 class="text-white">Nous suivre</h3>
+            <p class="fs-1 text-center">
+              <a class="text-secondary" href="#"><i class="bi bi-instagram"></i></a>
+              <a class="text-secondary" href="#"><i class="bi bi-facebook"></i></a>
+              <a class="text-secondary" href="#"><i class="bi bi-twitter"></i></a>
+              <a class="text-secondary" href="#"><i class="bi bi-youtube"></i></a>
+            </p>
+          </div>
+        </div>
+        <hr class="border border-secondary">
+        <p class="text-center small text-secondary">&copy; 2023 - Brisons le silence - 
+          Tous les droits réservés</p>
+      </div>  
+    </footer>
+
+</body>
+</html>
